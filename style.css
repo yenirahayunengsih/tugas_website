@@ -1,0 +1,10 @@
+/*navbar*/
+.navbar {
+	position: relative;
+	z-index: 1;
+}
+.navbar-brand {
+	font-family: viga;
+	font-size: 32px;
+	
+}
