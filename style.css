@@ -56,3 +56,66 @@
 	background-color: #0000CC;
 	padding: 30px;
 }
+/*footer*/
+.footer {
+	margin-top: 100px;
+}
+.footer p {
+	color:#ACACAC;
+	font-size: 18px;
+}
+
+
+	/*dekstop version*/
+@media (min-width: 992px){
+ .navbar-brand, .nav-link {
+	 color : white !important;
+	 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+ }
+.nav-link { 
+	text-transform : uppercase;
+	margin-right : 30px;
+	
+}
+.nav-link:hover::after {
+	content :'';
+	display: block;
+	border-bottom :3px solid #0B63DC   ;
+	width : 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+	
+}
+
+
+.jumbotron{
+		margin-top: -75px;
+		height: 640px;
+}
+
+ .biodata{
+	 text-align : center;
+	 margin-top : 100px;
+	 font-weight: bold;
+	 color : white;
+}
+.gambar {
+	margin-top:90px;
+	
+}
+.gambar h2 {
+	padding-bottom:20px;
+	color : white;
+}
+.figure img {
+	width: 150px;
+	height :150px;
+	margin: 20px 10px 10px;
+	margin-left : 120px;
+	
+}
+.figure-caption h2 {
+	text-align :center;
+	padding-left : 70px;
+}
